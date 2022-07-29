@@ -36,7 +36,6 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.ViewHolder> {
         Picasso.get().load(news.getImage())
                 .fit()
                 .into(holder.biding.ivThunbnail);
-
     }
 
     @Override
